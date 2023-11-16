@@ -6,14 +6,20 @@ package co.edu.unicesar.proyectoaulafx.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 
 /**
  * FXML Controller class
  *
- * @author ESTUDIANTES
+ * @author franc
  */
-public class FXMLController implements Initializable {
+public class SecondaryController implements Initializable {
+
+    @FXML
+    private Button secondaryButton;
 
     /**
      * Initializes the controller class.
@@ -22,5 +28,9 @@ public class FXMLController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void switchToPrimary(ActionEvent event) {
+    }
     
 }
