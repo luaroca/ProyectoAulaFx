@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package co.edu.unicesar.proyectoaulafx.controller;
+package co.edu.unicesar.proyectoaulafx;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,10 +16,10 @@ import javafx.scene.control.Button;
  *
  * @author franc
  */
-public class PrimaryController implements Initializable {
+public class SecondaryController implements Initializable {
 
     @FXML
-    private Button primaryButton;
+    private Button secondaryButton;
 
     /**
      * Initializes the controller class.
@@ -30,7 +30,7 @@ public class PrimaryController implements Initializable {
     }    
 
     @FXML
-    private void switchToSecondary(ActionEvent event) {
+    private void switchToPrimary(ActionEvent event) {
     }
     
 }
